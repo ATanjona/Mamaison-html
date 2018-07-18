@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ma Maison</title>
+    <!--Meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Houzez HTML5 Template">
+    <meta name="description" content="Houzez HTML5 Template">
+    <meta name="author" content="Favethemes">
+
+    <link rel="manifest" href="images/favicons/manifest.json">
+    <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-select.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+    <div class="modal fade" id="pop-login" tabindex="-1" role="dialog">
+        <div class="modal-dialog">			  
+			  <div class="modal-content">
+				<div class="modal-body">
+				    <ul class="contenaire-login" align="center">
+						<a href="login.html" class="menumbil"><h5 style="color : #828282;">Se connecter</h5></a>
+						<hr></hr>
+						<a href="register.html" class="menumbil"><h5 style="color : #828282;", sans-serif;">S'enregistrer</h5></a>
+					</ul>
+				</div>
+			  </div>			  
+		</div>
+    </div>
+	
+	<div class="modal fade" id="pop-reset-pass" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-sm">
+			<div class="modal-content">
+				<div class="modal-header">
+					<ul class="login-tabs">
+						<li class="active">Reset Password</li>
+					</ul>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+				</div>
+				<div class="modal-body">
+					<p>Please enter your username or email address. You will receive a link to create a new password via email.</p>
+					<form>
+						<div class="form-group">
+							<div class="input-user input-icon">
+								<input placeholder="Enter your username or email" class="form-control">
+							</div>
+						</div>
+						<button class="btn btn-primary btn-block">Get new password</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!--start header section header v1-->
+    <header id="header-section" class="header-section-4 nav-left hidden-sm hidden-xs" data-sticky="1">
+        <div class="container">
+            <div class="header-left">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/image2.png" alt="logo">
+                    </a>
+                </div>
+                <nav class="navi main-nav">
+                    <ul>
+                        <li><a href="index.html">A VENDRE</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">a-vendre</a></li>
+								<li><a href="#">a-vendre/terrain</a></li>
+								<li><a href="#">a-vendre/propriete-commerciale</a></li>
+								<li><a href="#">a-vendre/villa</a></li>
+								<li><a href="#">a-vendre/Studio</a></li>
+								<li><a href="#">a-vendre/maison-familiale</a></li> 
+								<li><a href="#">a-vendre/appartement</a></li>								
+                            </ul>
+                        </li>
+						
+						<li><a href="index.html">A LOUER PAR MOIS</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">a-louer-mois</a></li>
+								<li><a href="#">a-louer-mois/terrain</a></li>
+								<li><a href="#">a-louer-mois/propriete-commerciale</a></li>
+								<li><a href="#">a-louer-mois/villa</a></li>
+								<li><a href="#">a-louer-mois/Studio</a></li>
+								<li><a href="#">a-louer-mois/maison-familiale</a></li> 
+								<li><a href="#">a-louer-mois/appartement</a></li>                               
+                            </ul>
+                        </li>
+						
+						<li><a href="index.html">A LOUER PAR JOUR</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">a-louer-jour</a></li>
+								<li><a href="#">a-louer-jour/terrain</a></li>
+								<li><a href="#">a-louer-jour/propriete-commerciale</a></li>
+								<li><a href="#">a-louer-jour/villa</a></li>
+								<li><a href="#">a-louer-jour/Studio</a></li>
+								<li><a href="#">a-louer-jour/maison-familiale</a></li> 
+								<li><a href="#">a-louer-jour/appartement</a></li>                               
+                            </ul>
+                        </li>
+                                                                                              
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-right">
+                <div class="user">
+                    <a href="login.html" >Se connecter</a>
+					<!--<a href="#" data-toggle="modal" data-target="#pop-login">Creer un compte</a>-->
+                    <a href="add-new-property.html" class="btn btn-default">Publier votre propriété</a>
+                </div>
+            </div>
+        </div>
+    </header>
+	<div class="header-mobile visible-sm visible-xs">
+        <div class="container">
+            <!--start mobile nav-->
+            <div class="mobile-nav">
+                <span class="nav-trigger"><i class="fa fa-navicon"></i></span>
+                <div class="nav-dropdown main-nav-dropdown"></div>
+            </div>
+            <!--end mobile nav-->
+            <div class="header-logo">
+                <a href="#"><img src="images/mamaison2.png" alt="logo" ></a>
+            </div>
+            <div class="header-user">
+                <div class="user">
+                    <a href="#" data-toggle="modal" data-target="#pop-login"><i class="fa fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<!--start footer section-->
+    <footer class="footer-v2">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="footer-widget widget-about">
+                            <div class="widget-top">
+                                <h3 class="widget-title">À propos du site</h3>
+                            </div>
+                            <div class="widget-body">
+                                <p></p>
+                                <p class="read"><a href="about-us.html" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En savoir plus <i class="fa fa-caret-right"></i></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer-widget widget-contact">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Nous contacter</h3>
+                            </div>
+                            <div class="widget-body">
+                                <ul class="list-unstyled" >
+                                    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-location-arrow"></i>Mahamasinba</li>
+                                    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-phone"></i>+231 032 54 953 67 </li>
+                                    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-envelope-o"></i> <a href="#">info@mamaison.mg</a></li>
+                                </ul>
+                                <!--<p class="read"><a href="contact-us.html">Nous contacter &nbsp;<i class="fa fa-caret-right"></i></a></p>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="footer-widget widget-newsletter">
+                            <div class="widget-top">
+                                <h3 class="widget-title">Newsletter</h3>
+                            </div>
+                            <div class="widget-body">
+                                <form>
+                                    <div class="table-list">
+                                        <div class="form-group table-cell">
+                                            <div class="input-email input-icon">
+                                                <input class="form-control" placeholder="Entrer votre Email">
+                                            </div>
+                                        </div>
+                                        <div class="table-cell">
+                                            <button class="btn btn-primary">Soumettre</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <p></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3">
+                        <div class="footer-col">
+                            <p>MaMaison © Tous droits r&eacute;serv&eacute;s</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-5">
+                        <div class="footer-col">
+                            <div class="navi">
+                                <ul id="footer-menu" class="">
+                                    <li><a href="private.html">Vie Priv&eacute;e</a></li>
+                                    <li><a href="tearm-condition.html">Termes & Conditions</a></li>
+                                    <li><a href="Contact-us.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="footer-col foot-social">
+                            <p>
+                                Nous suivre sur
+                                <a href="#"><i class="fa fa-facebook-square" id="faclasse"></i></a>
+                                <a href="#" ><i class="fa fa-twitter-square" id="faclasse" ></i></a>
+                                <a href="#"><i class="fa fa-google-plus-square" id="faclasse" ></i></a>
+                                <a href="#" ><i class="fa fa-linkedin-square" id="faclasse" ></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end footer section-->
+
+    <!--Start Scripts-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/moment.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
