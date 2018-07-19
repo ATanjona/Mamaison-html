@@ -260,8 +260,8 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
   color: #fff;
-  background-color:#d70506 ! important;
-  border-color: #d70506 ! important;
+  background-color: #00aeef;
+  border-color: #2e6da4;
 }
 
 .btn-primary:focus,
