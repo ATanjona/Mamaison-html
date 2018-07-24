@@ -4013,6 +4013,7 @@ h4 {
   line-height: 60px;
   text-decoration: none;
   color: #fff;
+  font-size : 12px;
   /* mini phones and down */
   /* mini phones and down */
 }
@@ -5831,10 +5832,20 @@ img {
   width: 100%;
   padding: 9px 0;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-  background-color: white;
+  background-color: #f6f6f6 !important;
   /* mini phones and down */
   /* mini phones and down */
 }
+
+.advance-search-header1 {
+  width: 100%;
+  padding: 9px 0;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: #004274 !important;
+  /* mini phones and down */
+  /* mini phones and down */
+}
+
 .advance-search-header div[class^="col-"] {
   padding-left: 5px;
   padding-right: 5px;
@@ -6199,8 +6210,8 @@ img {
   padding: 7px 15px;
 }
 .advanced-search-mobile .range-wrap {
-  border: 1px solid #cccccc;
-  background-color: #f1f1f1 !important;
+  /*border: 1px solid #cccccc;
+  background-color: #f1f1f1 !important;*/
   border-radius: 3px;
   padding-right: 0px;
   padding-left: 8px;
@@ -14986,7 +14997,7 @@ a img.aligncenter {
 }
 
 .splash-foot-right, .footer-bottom .foot-social {
-  text-align: right;
+  text-align: center;
   color: #fff;
 }
 .splash-foot-right p, .footer-bottom .foot-social p {
@@ -15067,14 +15078,27 @@ a img.aligncenter {
   padding: 30px 0;
   /* mini phones and down */
 }
+
+.footerR {
+  width: 100%;
+  height : 39px;
+  background-color: black;
+  border-top: 1px solid #00243f;
+  padding-top: 8px;
+  font-size : 12px;
+  font-weight : 300;
+  color : white;
+  /* mini phones and down */
+}
+
 @media (max-width: 767px) {
   .footer-bottom {
     padding: 15px 0;
   }
 }
-.footer-bottom div[class*="col-"] {
-  /* mini phones and down */
-}
+/* .footer-bottom div[class*="col-"] {
+  /* mini phones and down 
+}*/
 @media (max-width: 767px) {
   .footer-bottom div[class*="col-"] {
     text-align: center;
